@@ -347,7 +347,7 @@ class IssueProcessor {
                 yield this.client.git.deleteRef({
                     owner: github_1.context.repo.owner,
                     repo: github_1.context.repo.repo,
-                    ref: branch
+                    ref: `heads/${branch}`
                 });
             }
             catch (error) {
