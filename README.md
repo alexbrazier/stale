@@ -1,6 +1,7 @@
 # Close Stale Issues and PRs
 
 Warns and then closes issues and PRs that have had no activity for a specified amount of time.
+Delete me
 
 ### Building and testing
 
